@@ -1,2 +1,20 @@
-vddsf
-sfhhiwe
+# 1. Variabel harga dan jumlah
+harga = 12500
+jumlah = 4
+
+# 2. Total harga
+total = harga * jumlah
+
+# 3. Sisa pembagian total dengan 2.000
+sisa = total % 2000
+
+# 4. Harga setelah diskon Rp5.000
+diskon = 5000
+total_setelah_diskon = total - diskon
+
+# 5. Tampilkan hasil dengan label
+print("Harga per buku        : Rp", harga)
+print("Jumlah buku           : ", jumlah)
+print("Total harga           : Rp", total)
+print("Sisa total % 2.000    : ", sisa)
+print("Total setelah diskon  : Rp", total_setelah_diskon)
